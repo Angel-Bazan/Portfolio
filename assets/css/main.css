@@ -1985,6 +1985,9 @@ input, select, textarea {
 			.button.primary.icon:before {
 				color: #ffffff !important;
 			}
+.primary{
+	padding-top: 1rem;
+}
 
 /* Form */
 
