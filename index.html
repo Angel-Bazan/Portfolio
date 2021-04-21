@@ -123,12 +123,24 @@
 							<section id="cta" class="main special">
 								<header class="major">
 									<h2>Let's get in touch!</h2>
-									<dt>Email</dt>
-								<dd><a href="#">information@untitled.tld</a></dd>
-<!-- 									<p>Donec imperdiet consequat consequat. Suspendisse feugiat congue<br />
-									posuere. Nulla massa urna, fermentum eget quam aliquet.</p> -->
+									<form id="fs-frm" name="simple-contact-form" accept-charset="utf-8" action="https://formspree.io/f/mdoykpnk" method="post">
+  <fieldset id="fs-frm-inputs">
+    <label for="full-name">Full Name</label>
+    <input type="text" name="name" id="full-name" placeholder="First and Last" required="">
+    <label for="email-address">Email Address</label>
+    <input type="email" name="_replyto" id="email-address" placeholder="email@domain.tld" required="">
+    <label for="message">Message</label>
+    <textarea rows="5" name="message" id="message" placeholder="Your message here." required=""></textarea>
+    <input type="hidden" name="_subject" id="email-subject" value="Contact Form Submission">
+  </fieldset>
+  <input type="submit" value="Submit">
+</form>
+<!-- 								<dt>Email</dt>
+								<dd><a href="mailto:angelsanchez.as524@gmail.com">angelsanchez.as524@gmail.com</a></dd>
+									<p>Donec imperdiet consequat consequat. Suspendisse feugiat congue<br />
+									posuere. Nulla massa urna, fermentum eget quam aliquet.</p>
 								</header>
-								<footer class="major">
+								<footer class="major"> -->
 <!-- 									<ul class="actions special">
 										<li><a href="generic.html" class="button primary">Get Started</a></li>
 										<li><a href="generic.html" class="button">Learn More</a></li>
