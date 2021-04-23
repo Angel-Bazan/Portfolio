@@ -2365,7 +2365,10 @@ input, select, textarea {
 		}
 
 /* Image */
-
+	.horoscope{
+		max-width: 100%;
+		border-radius: 20px;
+		}
 	.image {
 		border-radius: 8px;
 		border: 0;
